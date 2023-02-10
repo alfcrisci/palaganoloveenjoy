@@ -1,0 +1,192 @@
+
+Call:
+lm(formula = norm_carvarol_plate ~ level_dose + disposition + 
+    days + plate, data = grav_carv)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0115792 -0.0016354 -0.0000438  0.0027951  0.0075104 
+
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)         9.577e-02  1.098e-03  87.221  < 2e-16 ***
+level_doseL2        7.726e-04  1.052e-03   0.734  0.46462    
+level_doseL3        2.940e-03  1.110e-03   2.650  0.00952 ** 
+dispositionuniform  4.446e-03  9.111e-04   4.879 4.57e-06 ***
+days               -7.288e-04  7.136e-05 -10.213  < 2e-16 ***
+plate              -3.783e-04  6.757e-04  -0.560  0.57697    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.003908 on 90 degrees of freedom
+Multiple R-squared:  0.6125,	Adjusted R-squared:  0.591 
+F-statistic: 28.45 on 5 and 90 DF,  p-value: < 2.2e-16
+
+$`100 mg 1 pz uniform`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.002584 -0.001989 -0.001590  0.003133  0.004396 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.0996036  0.0012046   82.69 1.64e-15 ***
+days        -0.0004885  0.0001536   -3.18  0.00981 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.002975 on 10 degrees of freedom
+Multiple R-squared:  0.5029,	Adjusted R-squared:  0.4532 
+F-statistic: 10.12 on 1 and 10 DF,  p-value: 0.009811
+
+
+$`200 mg 2 pz uniform`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0008063 -0.0004576 -0.0001313  0.0004679  0.0011947 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  9.976e-02  2.728e-04  365.63  < 2e-16 ***
+days        -4.430e-04  3.479e-05  -12.73 1.67e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0006737 on 10 degrees of freedom
+Multiple R-squared:  0.9419,	Adjusted R-squared:  0.9361 
+F-statistic: 162.1 on 1 and 10 DF,  p-value: 1.669e-07
+
+
+$`200 mg 1 pz uniform`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.007666 -0.006933  0.002962  0.004010  0.004475 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.0961573  0.0023018  41.774 1.48e-12 ***
+days        -0.0003559  0.0002935  -1.212    0.253    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.005684 on 10 degrees of freedom
+Multiple R-squared:  0.1282,	Adjusted R-squared:  0.04097 
+F-statistic:  1.47 on 1 and 10 DF,  p-value: 0.2532
+
+
+$`300 mg 3 pz uniform`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0019463 -0.0013340 -0.0001969  0.0013806  0.0021957 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.002e-01  6.335e-04 158.174  < 2e-16 ***
+days        -4.988e-04  8.078e-05  -6.174 0.000105 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001564 on 10 degrees of freedom
+Multiple R-squared:  0.7922,	Adjusted R-squared:  0.7714 
+F-statistic: 38.12 on 1 and 10 DF,  p-value: 0.0001049
+
+
+$`300 mg 1 pz uniform`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0017342 -0.0010566 -0.0006807  0.0015139  0.0022290 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.013e-01  6.325e-04  160.23  < 2e-16 ***
+days        -3.291e-04  8.065e-05   -4.08  0.00221 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001562 on 10 degrees of freedom
+Multiple R-squared:  0.6247,	Adjusted R-squared:  0.5872 
+F-statistic: 16.65 on 1 and 10 DF,  p-value: 0.002213
+
+
+$`100 mg 1 pz random`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0045131 -0.0009429  0.0003901  0.0012682  0.0031711 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.0997289  0.0009929  100.44 2.34e-16 ***
+days        -0.0017159  0.0001266  -13.55 9.24e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.002452 on 10 degrees of freedom
+Multiple R-squared:  0.9484,	Adjusted R-squared:  0.9432 
+F-statistic: 183.7 on 1 and 10 DF,  p-value: 9.235e-08
+
+
+$`200 mg 1 pz random`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0021853 -0.0011132 -0.0001294  0.0012463  0.0018265 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  1.001e-01  5.851e-04  171.13  < 2e-16 ***
+days        -1.213e-03  7.461e-05  -16.25 1.61e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.001445 on 10 degrees of freedom
+Multiple R-squared:  0.9635,	Adjusted R-squared:  0.9599 
+F-statistic: 264.2 on 1 and 10 DF,  p-value: 1.613e-08
+
+
+$`300 mg 1 pz random`
+
+Call:
+lm(formula = norm_carvarol_plate ~ days, data = wd)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0029646 -0.0011566 -0.0007273  0.0016389  0.0037081 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.0984373  0.0008757 112.409  < 2e-16 ***
+days        -0.0007866  0.0001117  -7.044 3.52e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.002162 on 10 degrees of freedom
+Multiple R-squared:  0.8323,	Adjusted R-squared:  0.8155 
+F-statistic: 49.62 on 1 and 10 DF,  p-value: 3.524e-05
+
+
